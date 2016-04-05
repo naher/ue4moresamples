@@ -19,5 +19,5 @@ class NHGROW001_API UFindClosestSpider : public UBTService
 protected:
     virtual void OnBecomeRelevant(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
     
-    TSubclassOf<AActor> ClassToFind;
+    TSubclassOf<AActor> ClassSpider;
 };
